@@ -1,6 +1,6 @@
 window.onload = function() {
     var downloadLink = document.getElementById('downloadLink');
-    var pdfLink = "https://drive.google.com/uc?id=1VGsW9UYs8X73WhEuz6JSuhFK8sccuS_6";
+    var pdfLink = "";
 
     if (pdfLink) {
         downloadLink.href = pdfLink;
