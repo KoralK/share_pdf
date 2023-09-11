@@ -1,6 +1,6 @@
 window.onload = function() {
     var downloadLink = document.getElementById('downloadLink');
-    var pdfLink = "";
+    var pdfLink = "rp.pdf";
 
     if (pdfLink) {
         downloadLink.href = pdfLink;
